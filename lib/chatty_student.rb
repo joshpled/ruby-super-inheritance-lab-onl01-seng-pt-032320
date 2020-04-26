@@ -8,3 +8,5 @@ end
 def raise_hand
   super.times(10s)
 end
+
+end
