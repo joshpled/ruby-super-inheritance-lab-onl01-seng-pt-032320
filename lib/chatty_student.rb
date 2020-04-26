@@ -6,7 +6,9 @@ def hello
 end
 
 def raise_hand
-  10.times(super)
+  10.times do |x|
+    super
+  end 
 end
 
 end
